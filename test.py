@@ -6,3 +6,7 @@ class phone :
 
     def display_info(self):
         return f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}"
+    
+
+phone1 = phone("Apple", "iPhone 13", 999)
+print(phone1.display_info())
