@@ -8,5 +8,5 @@ class phone :
         return f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}"
     
 
-phone1 = phone("Apple", "iPhone 13", 999)
+phone1 = phone("Apple", "iPhone 14 pro", 999)
 print(phone1.display_info())
