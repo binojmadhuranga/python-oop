@@ -4,9 +4,13 @@ class phone :
         self.model = model
         self.price = price
 
+    def call(self):
+        return "Making a call..."
+  
     def display_info(self):
         return f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}"
     
 
 phone1 = phone("Apple", "iPhone 14 pro", 999)
 print(phone1.display_info())
+print(phone1.call()) 
