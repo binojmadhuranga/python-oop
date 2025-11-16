@@ -1,19 +1,7 @@
-"""Encapsulation practice: simple BankAccount class.
-
-This module demonstrates encapsulation by keeping the account's balance
-as a private attribute and exposing controlled operations: `deposit`
-and `withdraw`. The `balance` property is read-only.
-"""
 
 from __future__ import annotations
 
 class BankAccount:
-	"""A simple bank account demonstrating encapsulation.
-
-	- The balance is stored in a private attribute `__balance`.
-	- Use `deposit()` and `withdraw()` to change the balance.
-	- Read the current balance with the `balance` property.
-	"""
 
 	def __init__(self, owner: str, starting_balance: float = 0.0) -> None:
 		self.owner = owner
